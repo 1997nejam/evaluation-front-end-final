@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#listing {
+  max-width: 800px;
+  margin: 0 auto;
+}
+button {
+  background-color: #4b944b;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+#hero {
+  min-height: 50vh;
+  background-image: url("./images/background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+.text {
+  padding-top: 2rem;
+  text-align: center;
+}
+.filter {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+#cars {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.car {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+.carImage {
+  width: 40%;
+  height: auto;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.reserveButton {
+  border-radius: 3px;
+  font-weight: 500;
+}
+footer {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.agencyImage {
+  background-image: url("./images/agence.jpg");
+  width: 25%;
+  min-height: 120px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 30px;
+}
+.request {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.8);
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+#valide {
+  padding: 3px;
+  background-color: #4b944b;
+  margin: 0;
+}
+input {
+  border: none;
+  padding: 2px;
+}
+#select {
+  margin-left: 10px;
+  padding: 3px;
+  border: none;
+}
+
+.menu {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 40px;
+  display: none;
+}
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+#Menu {
+  background-color: transparent;
+  float: right;
+}

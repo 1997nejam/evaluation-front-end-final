@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Location de voiture</title>
+  </head>
+  <body>
+    <main>
+      <!-- Hero Section -->
+      <section id="hero">
+        <header>
+          <button id="Menu"><img src="./images/square.png" alt="" /></button>
+          <div class="menu">
+            <a href="#">Louer une voiture</a>
+            <a href="#">Louer un utilitaire</a>
+            <a href="#">Reservez un chauffeur</a>
+            <a href="#">Decoverir nos agenceS</a>
+            <a href="#">Mon compte</a>
+            <a href="#">Contact</a>
+          </div>
+        </header>
+        <div class="text">
+          <h1>Bienvenu à bord</h1>
+          <p>Location de voiture 24h/24 et 7j/7</p>
+        </div>
+        <div class="request">
+          <select name="agence" id="select">
+            <option value="title">Agence de départ</option>
+            <option value="saab">Paris</option>
+            <option value="opel">Léon</option>
+          </select>
+          <input type="date" name="Debut" />
+          <input type="date" name="Debut" />
+          <button id="validate">Valider ma recherche</button>
+        </div>
+      </section>
+      <!-- Listing section -->
+      <section id="listing">
+        <div class="filter">
+          <div class="carsNumber">
+            <h3></h3>
+          </div>
+          <div class="filterSelect"></div>
+        </div>
+        <!-- displaying cars -->
+        <div id="cars"></div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="agencyImage"></div>
+        <p>
+          Notre Agence de <strong>Paris</strong>
+          <br />
+          300 boulevard de vaugirard, 75015, Paris
+          <br />
+          Ouvert 7j/7 de 09h à 13h et de 14h à 20h
+          <br />
+          01 49 78 21 33
+          <br />
+          contact@vtv.com
+        </p>
+      </footer>
+    </main>
+    <!-- Script -->
+    <script src="./main.js"></script>
+  </body>
+</html>
